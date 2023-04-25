@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, main, footer, form button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+header, footer {
+    padding: 20px;
+    background-color: rgba(139, 139, 255, 0.2);
+    color: rgba(1, 1, 20, 0.795);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav li a {
+    color: rgba(1, 1, 20, 0.795);
+    text-decoration: none;
+}
+
+main {
+    background-color: rgba(5, 5, 87, 0.8);
+    color: rgba(255, 255, 255, 0.925);
+}
+
+section h2, h3 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+section h3 {
+    padding: 20px;
+}
+
+header .container, 
+#graduation .container, 
+#skills .container, 
+#contact .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about-me .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about-me img {
+    width: 400px;
+    padding: 30px;
+}
+
+#about-me p {
+    width: 400px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+#graduation .container, #skills .container {
+    justify-content: center;
+}
+
+#graduation .container li {
+    padding: 30px;
+}
+
+.years {
+    list-style: none;
+}
+
+#skills .container li{
+    background-color: rgb(139, 139, 255);
+    padding: 12px;
+    margin:8px;
+    text-align: center;
+}
+
+#contact .container {
+    align-items: baseline;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(0, 238, 255);
+}
+
+form button, #contact .container img {
+    cursor: pointer;
+}
+
+form button{
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(0, 238, 255);
+}
+
+.professional-links ul{
+    justify-content: center;
+}
+
+.professional-links li {
+    display: inline;
+} 
+
+.professional-links img {
+    width: 50px;
+    margin: 30px
+}
+
+footer h3 {
+    padding: 0px;
+}
